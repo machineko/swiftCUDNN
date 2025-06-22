@@ -1,0 +1,9 @@
+module cudnnFrontend {
+    requires cplusplus
+    header "cudnn_frontend.h"
+    link "cudart"
+    link "cuda"
+    link "cudnn"
+    export *
+
+}
